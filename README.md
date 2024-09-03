@@ -1,4 +1,4 @@
-# Team vr
+# Team wr
 
 ## Collaborators
 Victor Kochnev <br>
