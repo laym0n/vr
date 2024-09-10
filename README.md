@@ -27,7 +27,7 @@ Nikita Verhovod <br>
 4. Response Caching: Includes response caching mechanisms to optimize performance by reducing the load on backend services. Frequently accessed responses are cached, improving response times and reducing latency for end-users.
 
 ## Constraints
-1. Services under the gateway must stick to set of convensions for schema definition.
+1. Services behind the gateway must stick to set of convensions for schema definition.
 2. The API Gateway must be deployed in a Kubernetes environment, leveraging native K8s resources like Custom Resource Definitions (CRDs), Operators, and Ingress Controllers for managing traffic and API schemas.
 3. The gateway must strictly adhere to the OpenAPI standard when generating schemas, ensuring consistency, usability, and widespread compatibility with external tools and services.
 4. Any introduced features, including request validation and response caching, should not introduce significant latency, especially for high-throughput applications.
