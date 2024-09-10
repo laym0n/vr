@@ -10,15 +10,15 @@ Eugenii Solozobov <br>
 Nikita Verhovod <br>
 
 ## Stackholders
-* backend developer
-* devops
-* business-system analists
-* qa
-* project manager
-* cyber security team
-* api consumers
-* investors
-* society
+* Backend Developers
+* DevOps
+* Business-system analists
+* QA
+* Project Manager
+* Cyber security team
+* API consumers
+* Investors
+* Society
 
 ## Features
 1. Single Sign-On (SSO): Integrates SSO functionality, allowing for secure and unified access management across all API endpoints. This enhances security by simplifying user authentication and authorization processes.
