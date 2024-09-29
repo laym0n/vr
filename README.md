@@ -22,10 +22,12 @@ Nikita Verhovod <br>
 
 ## Features
 1. Single Sign-On (SSO): Integrates SSO functionality, allowing for secure and unified access management across all API endpoints. This enhances security by simplifying user authentication and authorization processes.
-2. Request Validation: Implements request validation based on the generated API schemas. This ensures that incoming requests conform to the defined structure and data types, improving the robustness and reliability of the system.
-3. Response Caching: Includes response caching mechanisms to optimize performance by reducing the load on backend services. Frequently accessed responses are cached, improving response times and reducing latency for end-users.
-4. Automatic OpenAPI Schema Generation Based on File Definition: Automatically generates OpenAPI schemas from the definition of files from K8S services, ensuring that the API documentation is always up-to-date with the actual implementation.
-5. Automatic OpenAPI Schema Generation Based on User Request: The user sends a request to the API Gateway, and the system automatically generates and save an OpenAPI schema based on the metadata associated with their request, including parameters and methods.
+    - Obtaining a token using keyCloack authorization.
+    - Checking requests for the presence of a valid token.
+3. Request Validation: Implements request validation based on the generated API schemas. This ensures that incoming requests conform to the defined structure and data types, improving the robustness and reliability of the system.
+4. Response Caching: Includes response caching mechanisms to optimize performance by reducing the load on backend services. Frequently accessed responses are cached, improving response times and reducing latency for end-users.
+5. Automatic OpenAPI Schema Generation Based on File Definition: Automatically generates OpenAPI schemas from the definition of files from K8S services, ensuring that the API documentation is always up-to-date with the actual implementation.
+6. Automatic OpenAPI Schema Generation Based on User Request: The user sends a request to the API Gateway, and the system automatically generates and save an OpenAPI schema based on the metadata associated with their request, including parameters and methods.
     - OpenAPI Schema generation based on a user request in case of the successful service response.
     - Updating the OpenAPI Schema of a service. The scheme of a successful request is merged with the scheme of the service
     - Saving valid OpenAPI Schema of a successful request.
