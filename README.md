@@ -30,11 +30,11 @@ Nikita Verhovod <br>
     - OpenAPI Schema generation based on a user request in case of the successful service response.
     - Updating the OpenAPI Schema of a service. The scheme of a successful request is merged with the scheme of the service
     - Saving valid OpenAPI Schema of a successful request.
-      -- Saving the scheme of a successful request.
-      -- Saving up-to-date service scheme.
+      - Saving the scheme of a successful request.
+      - Saving up-to-date service scheme.
     - The ability to view saved OpenAPI schemas.
-      -- View the schema by the ID of the successful request.
-      -- View the current service scheme.
+      - View the schema by the ID of the successful request.
+      - View the current service scheme.
 
 ## Constraints
 1. Services behind the gateway must stick to set of convensions for schema definition.
