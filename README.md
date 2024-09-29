@@ -146,4 +146,4 @@ Any user, application, or system that interacts with the API Gateway to access b
 
 
 ## StoryMap
-![GitHub Image](/StoryMap.png)
+![GitHub Image](/storyMap.png)
