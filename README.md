@@ -41,3 +41,6 @@ Nikita Verhovod <br>
 3. The gateway must strictly adhere to the OpenAPI standard when generating schemas, ensuring consistency, usability, and widespread compatibility with external tools and services.
 4. Any introduced features, including request validation and response caching, should not introduce significant latency, especially for high-throughput applications.
 5. All communication between the API Gateway, services, and external clients must occur over industry-standard encryption protocols.
+
+## StoryMap
+![GitHub Image](/StoryMap.png)
