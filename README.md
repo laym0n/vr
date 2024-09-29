@@ -41,6 +41,92 @@ Nikita Verhovod <br>
 3. The gateway must strictly adhere to the OpenAPI standard when generating schemas, ensuring consistency, usability, and widespread compatibility with external tools and services.
 4. Any introduced features, including request validation and response caching, should not introduce significant latency, especially for high-throughput applications.
 5. All communication between the API Gateway, services, and external clients must occur over industry-standard encryption protocols.
+   
+
+   ## Data Glossary
+
+### API Gateway
+An entry point for routing and securing interactions between clients and backend services in Kubernetes.
+
+**Attributes:**
+- Request Validation
+- Response Caching
+- Single Sign-On (SSO)
+- OpenAPI Schema Generation
+
+---
+
+### OpenAPI Schema
+A structure that defines an API, including its endpoints, request/response formats, and data models.
+
+**Attributes:**
+- Endpoints
+- HTTP Methods (GET, POST, etc.)
+- Request Parameters
+- Response Structure
+- Data Models
+
+---
+
+### Single Sign-On (SSO)
+A security feature that allows users to authenticate once and gain access to multiple services without needing to log in again.
+
+**Attributes:**
+- Authentication
+- Authorization
+- Token Management
+
+---
+
+### Custom Resource Definition (CRD)
+A way to define custom API objects in Kubernetes, extending Kubernetes API functionalities by allowing custom resources specific to the API Gateway.
+
+**Attributes:**
+- Schema
+- Definitions
+- Validation Rules
+- API Versioning
+
+---
+
+### Request Validation
+Ensures that incoming requests adhere to the formatted schema and data types in the OpenAPI specification.
+
+**Attributes:**
+- Schema Validation
+- Data Type Validation
+- Error Handling
+
+---
+
+### Response Caching
+Stores responses to reduce backend load and improve response times.
+
+**Attributes:**
+- Cache Storage
+- Expiration Policy
+- Cache Invalidation
+
+---
+
+### Operator
+A Kubernetes controller that manages the lifecycle of applications and serves as a schema generator.
+
+**Attributes:**
+- Application Management
+- Event Handling
+- Monitoring
+
+---
+
+### API Consumer
+Any user, application, or system that interacts with the API Gateway to access backend services.
+
+**Attributes:**
+- API Key/Token
+- Request Frequency
+- Response Time
+
 
 ## StoryMap
 ![GitHub Image](/StoryMap.png)
