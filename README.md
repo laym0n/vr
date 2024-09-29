@@ -42,8 +42,23 @@ Nikita Verhovod <br>
 4. Any introduced features, including request validation and response caching, should not introduce significant latency, especially for high-throughput applications.
 5. All communication between the API Gateway, services, and external clients must occur over industry-standard encryption protocols.
    
+## Roles
 
-   ## Data Glossary
+### Solution Architect
+Designs the system’s architecture for scalability and availability. Primarily uses the service for managing API traffic with a focus on high performance.
+
+---
+
+### Developer
+Integrates the consumer system with the API Gateway. Uses the Gateway to validate requests against predefined API schemas.
+
+---
+
+### System Analyst
+Ensures the services meet business and technical requirements. The automatic API generation feature reduces time spent maintaining documentation and ensures consistency.
+
+----
+## Data Glossary
 
 ### API Gateway
 An entry point for routing and securing interactions between clients and backend services in Kubernetes.
