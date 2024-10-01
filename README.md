@@ -147,3 +147,15 @@ Any user, application, or system that interacts with the API Gateway to access b
 
 ## StoryMap
 ![GitHub Image](/storyMap.png)
+
+
+## ClassCandidates
+![GitHub Image](/ClassCandidates.jpeg)
+
+
+## ClassDiagramm
+![GitHub Image](/ClassDiagram.jpeg)
+
+
+## DomainModelDiagram
+![GitHub Image](/DomainModelDiagram.jpeg)
