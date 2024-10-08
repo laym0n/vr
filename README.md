@@ -159,3 +159,19 @@ Any user, application, or system that interacts with the API Gateway to access b
 
 ## DomainModelDiagram
 ![GitHub Image](/DomainModelDiagram.jpeg)
+
+## UseCase
+![GitHub Image](/Task6/UseCase.jpeg)
+Prioritization of use cases
+1. distribute requests across services
+2. check api definitions of each service
+``MVP``
+---
+3. establish secure connections
+4. cache responses
+
+## InteractionAnalysis
+![GitHub Image](/Task6/InteractionAnalysis.jpeg)
+
+## Updated class diagram
+![GitHub Image](/Task6/UpdatedClassDiagram.jpeg)
