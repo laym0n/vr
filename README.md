@@ -161,7 +161,7 @@ Any user, application, or system that interacts with the API Gateway to access b
 ![GitHub Image](/DomainModelDiagram.jpeg)
 
 ## UseCase
-![GitHub Image](/usecase.png)
+![GitHub Image](/usecase1.png)
 Prioritization of use cases
 1. distribute requests across services
 2. check api definitions of each service
