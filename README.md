@@ -178,3 +178,14 @@ Prioritization of use cases
 
 ## Detailed behavior
 ![GitHub Image](/state1.png)
+This state diagram represents the lifecycle of Distributor. 
+The process begins in the "Pending requests" state when a started event is received, transitioning from an initial "started" state. The system can be stopped at any time, transitioning to the end state.
+
+When request received, the flow moves into a sub-state called "Processing request," where multiple stages occur sequentially:
+
+1. Pending validation: The request is validated to ensure it meets the necessary criteria.
+2. Pending saving schema: If valid, the request's schema is saved for future use.
+3. Pending looking for cache: The system checks whether a cached response for the request already exists.
+4. A decision is made based on the cache: If a cached response is found, the flow proceeds to "Returning the response." If no cached response exists, the request goes to the "Routing Request" state.
+5. Routing Request: The request is processed, and a response is generated.
+6. Request Response Caching: The generated response may be cached for future requests.
