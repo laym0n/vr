@@ -49,15 +49,27 @@ Nikita Verhovod <br>
 ### Solution Architect
 Designs the system’s architecture for scalability and availability. Primarily uses the service for managing API traffic with a focus on high performance.
 
+#### Pain
+* performance concerns of the service
+* scalability and maintainability of the service
+
 ---
 
 ### Developer
 Integrates the consumer system with the API Gateway. Uses the Gateway to validate requests against predefined API schemas.
 
+#### Pain
+* manual API documentation
+* need detailed, up-to-date API documentation
+
 ---
 
 ### System Analyst
 Ensures the services meet business and technical requirements. The automatic API generation feature reduces time spent maintaining documentation and ensures consistency.
+
+#### Pain
+* need detailed, up-to-date API documentation
+* understanding request validations and error handling of the service
 
 ----
 ## Data Glossary
