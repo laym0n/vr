@@ -1,0 +1,201 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.7.16">
+  <diagram name="Страница — 1" id="83zHtWR6xDJZPPRdprW6">
+    <mxGraphModel dx="2861" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-1" value="DDD" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" parent="1" vertex="1">
+          <mxGeometry x="-10" y="10" width="1140" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=open;endFill=0;startArrow=diamondThin;startFill=0;" parent="R2D-VrtTJC2_m3kIHMMN-1" source="R2D-VrtTJC2_m3kIHMMN-4" target="R2D-VrtTJC2_m3kIHMMN-19" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-3" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;startArrow=diamondThin;startFill=0;endArrow=open;endFill=0;" parent="R2D-VrtTJC2_m3kIHMMN-1" source="R2D-VrtTJC2_m3kIHMMN-4" target="R2D-VrtTJC2_m3kIHMMN-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-4" value="&amp;lt;&amp;lt;root&amp;gt;&amp;gt;Distributor" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="R2D-VrtTJC2_m3kIHMMN-1" vertex="1">
+          <mxGeometry x="65" y="238" width="250" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-5" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 13.3333px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;# Route Map: HashMap&amp;lt;String, String&amp;gt; &lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="R2D-VrtTJC2_m3kIHMMN-4" vertex="1">
+          <mxGeometry y="55" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="R2D-VrtTJC2_m3kIHMMN-4" vertex="1">
+          <mxGeometry y="85" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-7" value="+ routeRequests(request:String)&lt;div&gt;+ routeRequests(request:String):Boolean&lt;/div&gt;&lt;div&gt;+ g&lt;span style=&quot;background-color: transparent; font-family: Arial, sans-serif; font-size: 10pt; white-space-collapse: preserve;&quot;&gt;etRoutes(): &lt;/span&gt;&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 13.3333px; white-space-collapse: preserve; background-color: initial;&quot;&gt;HashMap&amp;lt;String, String&amp;gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="R2D-VrtTJC2_m3kIHMMN-4" vertex="1">
+          <mxGeometry y="93" width="250" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=open;endFill=0;startArrow=diamondThin;startFill=0;" parent="R2D-VrtTJC2_m3kIHMMN-1" source="R2D-VrtTJC2_m3kIHMMN-10" target="R2D-VrtTJC2_m3kIHMMN-17" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=open;startFill=0;endArrow=diamondThin;endFill=0;" parent="R2D-VrtTJC2_m3kIHMMN-1" source="R2D-VrtTJC2_m3kIHMMN-33" target="R2D-VrtTJC2_m3kIHMMN-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-10" value="&amp;lt;&amp;lt;root&amp;gt;&amp;gt;RequestValidator" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="R2D-VrtTJC2_m3kIHMMN-1" vertex="1">
+          <mxGeometry x="430" y="235" width="280" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-11" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 13.3333px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;# &lt;span id=&quot;docs-internal-guid-f26df158-7fff-a619-ddc0-28d4c44d1c35&quot;&gt;&lt;span style=&quot;font-size: 10pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;&quot;&gt;Validation rules&lt;/span&gt;&lt;/span&gt;: String[0..*] {unique}&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 13.3333px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="R2D-VrtTJC2_m3kIHMMN-10" vertex="1">
+          <mxGeometry y="55" width="280" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-12" value="&lt;b style=&quot;font-weight:normal;&quot; id=&quot;docs-internal-guid-a1300bde-7fff-8ec0-51a4-c328ec383ea7&quot;&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;# Error-handling configurations:String[1..*] {unique}&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" parent="R2D-VrtTJC2_m3kIHMMN-10" vertex="1">
+          <mxGeometry y="90" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-13" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="R2D-VrtTJC2_m3kIHMMN-10" vertex="1">
+          <mxGeometry y="150" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-14" value="&lt;div&gt;+ uploadRules(rules: String[0..*])&lt;/div&gt;&lt;div&gt;+ uploadConfig(rules: String[0..*])&lt;br&gt;&lt;/div&gt;+ validateRequestRequests(request:String):String&lt;div&gt;+&amp;nbsp;&lt;span id=&quot;docs-internal-guid-38511d8e-7fff-0f09-29a9-b0846342d782&quot;&gt;&lt;span style=&quot;font-size: 10pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;getSchema&lt;/span&gt;&lt;/span&gt;():OpenApiSchema&lt;/div&gt;&lt;div&gt;+ checkToken(token:String):boolean&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="R2D-VrtTJC2_m3kIHMMN-10" vertex="1">
+          <mxGeometry y="158" width="280" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="R2D-VrtTJC2_m3kIHMMN-10" source="R2D-VrtTJC2_m3kIHMMN-11" target="R2D-VrtTJC2_m3kIHMMN-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-16" value="&amp;lt;&amp;lt;value&amp;gt;&amp;gt;OpenApi Schema" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="R2D-VrtTJC2_m3kIHMMN-1" vertex="1">
+          <mxGeometry x="820" y="260" width="250" height="138" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-17" value="&lt;span id=&quot;docs-internal-guid-5457fb7f-7fff-9584-35e8-6880242f1b99&quot;&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-size: 10pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;# API structure: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-size: 10pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;# File location: String&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height:1.38;margin-top:0pt;margin-bottom:0pt;&quot; dir=&quot;ltr&quot;&gt;&lt;span style=&quot;font-size: 10pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;# File name: String&lt;/span&gt;&lt;/p&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="R2D-VrtTJC2_m3kIHMMN-16" vertex="1">
+          <mxGeometry y="55" width="250" height="75" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="R2D-VrtTJC2_m3kIHMMN-16" vertex="1">
+          <mxGeometry y="130" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-19" value="&amp;lt;&amp;lt;entity&amp;gt;&amp;gt;Responce Cacher" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="R2D-VrtTJC2_m3kIHMMN-1" vertex="1">
+          <mxGeometry x="50" y="520" width="280" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-20" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 13.3333px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;# Cashing&lt;span id=&quot;docs-internal-guid-f26df158-7fff-a619-ddc0-28d4c44d1c35&quot;&gt;&lt;span style=&quot;font-size: 10pt; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;&quot;&gt; rules&lt;/span&gt;&lt;/span&gt;: String[0..*] {unique}&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 13.3333px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="R2D-VrtTJC2_m3kIHMMN-19" vertex="1">
+          <mxGeometry y="55" width="280" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-21" value="&lt;b style=&quot;font-weight:normal;&quot; id=&quot;docs-internal-guid-a1300bde-7fff-8ec0-51a4-c328ec383ea7&quot;&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;# CashSystemConfig:String[1..*] {unique}&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" parent="R2D-VrtTJC2_m3kIHMMN-19" vertex="1">
+          <mxGeometry y="90" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-22" value="&lt;b style=&quot;font-weight:normal;&quot; id=&quot;docs-internal-guid-3ee87e24-7fff-f079-7348-ecfdbf1fd3b9&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;# Cached responses&lt;span style=&quot;font-family: Helvetica; font-size: 12px; white-space-collapse: collapse;&quot; id=&quot;docs-internal-guid-a1300bde-7fff-8ec0-51a4-c328ec383ea7&quot;&gt;&lt;span style=&quot;font-size: 10pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;:String[1..*] {unique}&lt;/span&gt;&lt;/span&gt; &lt;/font&gt;&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" parent="R2D-VrtTJC2_m3kIHMMN-19" vertex="1">
+          <mxGeometry y="130" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-23" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="R2D-VrtTJC2_m3kIHMMN-19" vertex="1">
+          <mxGeometry y="170" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-24" value="&lt;div&gt;+ uploadRules(rules: String[0..*])&lt;/div&gt;&lt;div&gt;+ uploadConfig(rules: String[0..*])&lt;br&gt;&lt;/div&gt;+&amp;nbsp;&lt;span id=&quot;docs-internal-guid-3d343022-7fff-2825-82aa-aa383416bce2&quot;&gt;&lt;span style=&quot;font-size: 8pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Store response&lt;/span&gt;&lt;/span&gt;(response:String)&lt;div&gt;+ Find&lt;span id=&quot;docs-internal-guid-38511d8e-7fff-0f09-29a9-b0846342d782&quot;&gt;&lt;span style=&quot;font-size: 10pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Response&lt;/span&gt;&lt;/span&gt;():String&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;" parent="R2D-VrtTJC2_m3kIHMMN-19" vertex="1">
+          <mxGeometry y="178" width="280" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="R2D-VrtTJC2_m3kIHMMN-19" source="R2D-VrtTJC2_m3kIHMMN-20" target="R2D-VrtTJC2_m3kIHMMN-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-26" value="&lt;b style=&quot;font-weight:normal;&quot; id=&quot;docs-internal-guid-f2197ef2-7fff-327c-abc3-34c5134f3c68&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;+ InvalidateCache()&lt;/font&gt;&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" parent="R2D-VrtTJC2_m3kIHMMN-19" vertex="1">
+          <mxGeometry y="250" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-27" value="&amp;lt;&amp;lt;root&amp;gt;&amp;gt;Autentication Provider" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="R2D-VrtTJC2_m3kIHMMN-1" vertex="1">
+          <mxGeometry x="424" y="575" width="280" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-28" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;# &lt;span style=&quot;&quot; id=&quot;docs-internal-guid-0717042e-7fff-3c65-528d-4da9d0ddbe4a&quot;&gt;&lt;span style=&quot;background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline;&quot;&gt;Token List&lt;/span&gt;&lt;/span&gt;: String[0..*] {unique}&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Arial, sans-serif; font-size: 13.3333px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="R2D-VrtTJC2_m3kIHMMN-27" vertex="1">
+          <mxGeometry y="55" width="280" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-29" value="&lt;b style=&quot;font-weight:normal;&quot; id=&quot;docs-internal-guid-a1300bde-7fff-8ec0-51a4-c328ec383ea7&quot;&gt;&lt;span style=&quot;font-size:10pt;font-family:Arial,sans-serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;# AuthConfig:String[1..*] {unique}&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" parent="R2D-VrtTJC2_m3kIHMMN-27" vertex="1">
+          <mxGeometry y="90" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="R2D-VrtTJC2_m3kIHMMN-27" vertex="1">
+          <mxGeometry y="130" width="280" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="R2D-VrtTJC2_m3kIHMMN-27" source="R2D-VrtTJC2_m3kIHMMN-28" target="R2D-VrtTJC2_m3kIHMMN-28" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-32" value="&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;+ uploadConfig(rules: String[0..*])&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;&lt;/div&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;+&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;&lt;span id=&quot;docs-internal-guid-b31d3b25-7fff-fe48-8f4c-e3f12698210c&quot;&gt;&lt;span style=&quot;font-size: 8pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Authenticate user&lt;/span&gt;&lt;/span&gt;(user:String):String&lt;/span&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;+ validateToken(token:String):boolean&lt;/div&gt;&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;+ e&lt;span style=&quot;background-color: transparent; font-family: Arial, sans-serif; font-size: 8pt; white-space-collapse: preserve;&quot;&gt;xpireAllTokens()&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="R2D-VrtTJC2_m3kIHMMN-27" vertex="1">
+          <mxGeometry y="138" width="280" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-33" value="&amp;lt;&amp;lt;service&amp;gt;&amp;gt;OpenApi Generator" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=55;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;html=1;whiteSpace=wrap;" parent="R2D-VrtTJC2_m3kIHMMN-1" vertex="1">
+          <mxGeometry x="390" y="40" width="360" height="133" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-34" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="R2D-VrtTJC2_m3kIHMMN-33" vertex="1">
+          <mxGeometry y="55" width="360" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="R2D-VrtTJC2_m3kIHMMN-33" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="90" as="sourcePoint" />
+            <mxPoint x="140" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-36" value="&lt;div style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;+&amp;nbsp;&lt;span id=&quot;docs-internal-guid-fac67e25-7fff-50c7-0ff5-ebc66890f307&quot;&gt;&lt;span style=&quot;font-size: 8pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Generate&lt;/span&gt;&lt;span style=&quot;font-size: 8pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-variant-position: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;OpenAPISchema&lt;/span&gt;&lt;/span&gt;(routes: String [0..*]):OpenApiSchema&lt;br style=&quot;forced-color-adjust: none;&quot;&gt;&lt;/div&gt;- GetDefinitions(routes: String[0..*]):String" style="text;whiteSpace=wrap;html=1;" parent="R2D-VrtTJC2_m3kIHMMN-33" vertex="1">
+          <mxGeometry y="63" width="360" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-37" value="+ store in" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="R2D-VrtTJC2_m3kIHMMN-1" vertex="1">
+          <mxGeometry x="700" y="321" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-38" value="+ schema" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="R2D-VrtTJC2_m3kIHMMN-1" vertex="1">
+          <mxGeometry x="740" y="360" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-39" value="+validate by" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="R2D-VrtTJC2_m3kIHMMN-1" vertex="1">
+          <mxGeometry x="340" y="291" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-40" value="+ cache by" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="R2D-VrtTJC2_m3kIHMMN-1" vertex="1">
+          <mxGeometry x="185" y="490" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-41" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;edgeStyle=orthogonalEdgeStyle;startArrow=diamondThin;startFill=0;endArrow=open;endFill=0;" parent="R2D-VrtTJC2_m3kIHMMN-1" source="R2D-VrtTJC2_m3kIHMMN-14" target="R2D-VrtTJC2_m3kIHMMN-27" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="568" y="518" />
+              <mxPoint x="570" y="518" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-42" value="+ autenticator" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="R2D-VrtTJC2_m3kIHMMN-1" vertex="1">
+          <mxGeometry x="565" y="545" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R2D-VrtTJC2_m3kIHMMN-43" value="+ generate by" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="R2D-VrtTJC2_m3kIHMMN-1" vertex="1">
+          <mxGeometry x="565" y="173" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="mW3XSaCx8TKVYnGYRp6_-20" value="&lt;span style=&quot;text-align: left;&quot;&gt;do: route Requests&lt;/span&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;interact: add Route&lt;/span&gt;&lt;span style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;&quot;&gt;know: get routes&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mW3XSaCx8TKVYnGYRp6_-21" value="Responce Cacher&lt;div&gt;Request Validator&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="241" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mW3XSaCx8TKVYnGYRp6_-24" value="Distributor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-620" y="181" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mW3XSaCx8TKVYnGYRp6_-25" value="&lt;div style=&quot;text-align: left;&quot;&gt;know: upload Rules&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;know: upload Config&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 10.6667px; white-space-collapse: preserve;&quot;&gt;do: Validate Request&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;know: get schema&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;interact: check token&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="439" width="140" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="mW3XSaCx8TKVYnGYRp6_-26" value="OpenApi Generator&lt;div&gt;Autentication provider&lt;/div&gt;&lt;div&gt;OpenApi schema&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="440" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mW3XSaCx8TKVYnGYRp6_-27" value="Request Validator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="380" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mW3XSaCx8TKVYnGYRp6_-28" value="&lt;div style=&quot;text-align: left;&quot;&gt;know: upload Rules&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;know: upload Config&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot; id=&quot;docs-internal-guid-3d343022-7fff-2825-82aa-aa383416bce2&quot;&gt;&lt;span style=&quot;font-size: 8pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;do: Store response&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;interact: Find&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot; id=&quot;docs-internal-guid-38511d8e-7fff-0f09-29a9-b0846342d782&quot;&gt;&lt;span style=&quot;font-size: 10pt; font-family: Arial, sans-serif; background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; vertical-align: baseline; white-space-collapse: preserve;&quot;&gt;Response&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-960" y="245" width="140" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="mW3XSaCx8TKVYnGYRp6_-29" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="246" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mW3XSaCx8TKVYnGYRp6_-30" value="Responce Cacher" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-960" y="186" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mW3XSaCx8TKVYnGYRp6_-31" value="&lt;div style=&quot;text-align: left;&quot;&gt;do: generate OpenApi schema&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;know: get definitions&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="659" width="150" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="mW3XSaCx8TKVYnGYRp6_-32" value="OpenApi Schema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-500" y="660" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mW3XSaCx8TKVYnGYRp6_-33" value="OpenApi Generator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-650" y="600" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mW3XSaCx8TKVYnGYRp6_-34" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;know: upload Config&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;interact: autentificate user&lt;/div&gt;&lt;div&gt;interact: validate token&lt;/div&gt;&lt;div&gt;do: expire all token&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="879" width="150" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="mW3XSaCx8TKVYnGYRp6_-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-490" y="880" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mW3XSaCx8TKVYnGYRp6_-36" value="Autentication Provider" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-640" y="820" width="290" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mW3XSaCx8TKVYnGYRp6_-37" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;div&gt;do: store info for openApi&#39;s file&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-960" y="639" width="150" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="mW3XSaCx8TKVYnGYRp6_-38" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-810" y="640" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mW3XSaCx8TKVYnGYRp6_-39" value="OpenApi schema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-960" y="580" width="290" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

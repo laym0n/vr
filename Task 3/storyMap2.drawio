@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="24.8.0">
+  <diagram name="Страница — 1" id="7UX350dqCTHQ7rRjySeL">
+    <mxGraphModel dx="1710" dy="972" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VIZpdqTGnJSSWi0GfuC7-1" value="create&amp;nbsp; analysis for developers" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#009900;" parent="1" vertex="1">
+          <mxGeometry x="270" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VIZpdqTGnJSSWi0GfuC7-2" value="NEEDS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="80" y="155" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VIZpdqTGnJSSWi0GfuC7-4" value="check api defenitions of each service" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFB570;" parent="1" vertex="1">
+          <mxGeometry x="270" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VIZpdqTGnJSSWi0GfuC7-6" value="&lt;font color=&quot;#1a1a1a&quot;&gt;FEATURES&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="80" y="340" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VIZpdqTGnJSSWi0GfuC7-8" value="&lt;span style=&quot;font-family: system-ui, -apple-system, &amp;quot;system-ui&amp;quot;, Roboto, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, sans-serif; font-size: 15px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;distribute requests across services&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFB570;" parent="1" vertex="1">
+          <mxGeometry x="560" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VIZpdqTGnJSSWi0GfuC7-9" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="500" as="sourcePoint" />
+            <mxPoint x="500" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VIZpdqTGnJSSWi0GfuC7-10" value="JOBS" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="80" y="240" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VIZpdqTGnJSSWi0GfuC7-11" value="generate schemas based on files of definitions" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="185" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VIZpdqTGnJSSWi0GfuC7-12" value="validate queries" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFB570;" parent="1" vertex="1">
+          <mxGeometry x="730" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VIZpdqTGnJSSWi0GfuC7-13" value="send queries to services behind the gateway" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="560" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VIZpdqTGnJSSWi0GfuC7-14" value="cache answers from services" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="860" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VIZpdqTGnJSSWi0GfuC7-15" value="support sso connection for access to api Gateway" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VIZpdqTGnJSSWi0GfuC7-18" value="JTBD" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="80" y="490" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VIZpdqTGnJSSWi0GfuC7-19" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="VIZpdqTGnJSSWi0GfuC7-18" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="490" as="sourcePoint" />
+            <mxPoint x="1240" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uNca7JYbayWWrSD7GeUW-1" value="get openApi schema from all services" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="270" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uNca7JYbayWWrSD7GeUW-2" value="system analyst" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="265" y="80" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uNca7JYbayWWrSD7GeUW-3" value="solution architector" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="785" y="80" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uNca7JYbayWWrSD7GeUW-5" value="increase availability" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#009900;" parent="1" vertex="1">
+          <mxGeometry x="560" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uNca7JYbayWWrSD7GeUW-6" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="500" as="sourcePoint" />
+            <mxPoint x="1240" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uNca7JYbayWWrSD7GeUW-7" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="215" as="sourcePoint" />
+            <mxPoint x="1240" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uNca7JYbayWWrSD7GeUW-8" value="increase perfomance" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#009900;" parent="1" vertex="1">
+          <mxGeometry x="790" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uNca7JYbayWWrSD7GeUW-9" value="cache responces" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFB570;" parent="1" vertex="1">
+          <mxGeometry x="860" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uNca7JYbayWWrSD7GeUW-10" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="305" as="sourcePoint" />
+            <mxPoint x="1240" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uNca7JYbayWWrSD7GeUW-11" value="meet security requirements" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#009900;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uNca7JYbayWWrSD7GeUW-12" value="validate queries with openApi schema&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="730" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uNca7JYbayWWrSD7GeUW-13" value="&lt;div&gt;establish secure connections&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#FFB570;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="225" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uNca7JYbayWWrSD7GeUW-14" value="API GATEWAY" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#6600CC;" parent="1" vertex="1">
+          <mxGeometry x="640" y="525" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="uNca7JYbayWWrSD7GeUW-15" value="SERVICES" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="80" y="540" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="uNca7JYbayWWrSD7GeUW-16" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="135" as="sourcePoint" />
+            <mxPoint x="1241" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uNca7JYbayWWrSD7GeUW-17" value="" style="endArrow=none;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="500" as="sourcePoint" />
+            <mxPoint x="150" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5VoDhh0r-ZAXPNZjwvUC-1" value="generate schemas based on succesful requests" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="340" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

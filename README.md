@@ -146,7 +146,7 @@ Any user, application, or system that interacts with the API Gateway to access b
 
 
 ## StoryMap
-![GitHub Image](/storyMap.png)
+![GitHub Image](/storyMap2.png)
 
 
 ## ClassCandidates
