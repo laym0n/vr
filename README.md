@@ -177,4 +177,4 @@ Prioritization of use cases
 ![GitHub Image](/UpdatedClassDiagram.jpeg)
 
 ## Detailed behavior
-
+![GitHub Image](/state1.png)
