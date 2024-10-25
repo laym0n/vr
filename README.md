@@ -5,7 +5,6 @@ A typical ingress implementation in k8s forwards incoming traffic to a particula
 
 ## Collaborators
 Victor Kochnev <br>
-Artyom Polienko <br>
 Eugenii Solozobov <br>
 Nikita Verhovod <br>
 
