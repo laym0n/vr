@@ -26,3 +26,12 @@ Run task b
 ```bash
   java -jar ./task-b/target/task-b-1.0.0.jar
 ```
+## Comparing
+
+| Criterion                       | Main/Subroutine (Stepwise Refinement) | Pipes-and-Filters      | Implicit Invocation (Event-Driven) |
+|---------------------------------|---------------------------------------|------------------------|------------------------------------|
+| Change implementation algorithm | Difficult                             | Easy                   | Easy                               |
+| Change data representation      | Normal                                | Easy                   | Easy                               |
+| Add additional functions        | Normal                                | Easy                   | Easy                               |
+| Performance                     | High                                  | Normal                 | Normal                             |
+| Reusability                     | Difficult                             | Easy                   | Normal                             |
