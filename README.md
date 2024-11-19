@@ -200,3 +200,18 @@ When request received, the flow moves into a sub-state called "Processing reques
 4. A decision is made based on the cache: If a cached response is found, the flow proceeds to "Returning the response." If no cached response exists, the request goes to the "Routing Request" state.
 5. Routing Request: The request is processed, and a response is generated.
 6. Request Response Caching: The generated response may be cached for future requests.
+
+## Service diagram
+![GitHub Image](/ServiceDiagram.png)
+
+## Detailed class diagram - Aggregate OpenApi Generated Event 
+![GitHub Image](/AggregateOpenApiGeneratedEvent.png)
+
+## Detailed class diagram - Aggregate Distributor Event 
+![GitHub Image](/AggregateDistributorEvent.png)
+
+## Detailed class diagram - Aggregate Authentication Provider Event 
+![GitHub Image](/AggregateAuthenticationProviderEvent.png)
+
+## Detailed class diagram - Aggregate Storage Event 
+![GitHub Image](/AggregateStorageEvent.png)
