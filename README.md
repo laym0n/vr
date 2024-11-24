@@ -201,17 +201,17 @@ When request received, the flow moves into a sub-state called "Processing reques
 5. Routing Request: The request is processed, and a response is generated.
 6. Request Response Caching: The generated response may be cached for future requests.
 
-## Service diagram
+## Service diagram (Practic 9)
 ![GitHub Image](/ServiceDiagram.png)
 
-## Detailed class diagram - Aggregate OpenApi Generated Event 
+## Detailed class diagram - Aggregate OpenApi Generated Event (Practic 9)
 ![GitHub Image](/AggregateOpenApiGeneratedEvent.png)
 
-## Detailed class diagram - Aggregate Distributor Event 
+## Detailed class diagram - Aggregate Distributor Event (Practic 9)
 ![GitHub Image](/AggregateDistributorEvent.png)
 
-## Detailed class diagram - Aggregate Authentication Provider Event 
+## Detailed class diagram - Aggregate Authentication Provider Event (Practic 9)
 ![GitHub Image](/AggregateAuthenticationProviderEvent.png)
 
-## Detailed class diagram - Aggregate Storage Event 
+## Detailed class diagram - Aggregate Storage Event (Practic 9)
 ![GitHub Image](/AggregateStorageEvent.png)
