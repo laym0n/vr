@@ -187,7 +187,7 @@ Prioritization of use cases
 ## Updated class diagram
 ![GitHub Image](/UpdatedClassDiagram.jpeg)
 
-## Detailed behavior
+## Detailed behavior (Practic 8)
 ![GitHub Image](/state1.png)
 This state diagram represents the lifecycle of Distributor. 
 The process begins in the "Pending requests" state when a started event is received, transitioning from an initial "started" state. The system can be stopped at any time, transitioning to the end state.
