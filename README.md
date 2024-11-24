@@ -215,3 +215,6 @@ When request received, the flow moves into a sub-state called "Processing reques
 
 ## Detailed class diagram - Aggregate Storage Event (Practic 9)
 ![GitHub Image](/AggregateStorageEvent.png)
+
+## Event storming (Practic 9)
+![GitHub Image](/Eventstorming.jpg)
