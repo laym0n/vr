@@ -202,7 +202,7 @@ When request received, the flow moves into a sub-state called "Processing reques
 6. Request Response Caching: The generated response may be cached for future requests.
 
 ## Service diagram (Practic 9)
-![GitHub Image](/ServiceDiagram.png)
+![GitHub Image](/ServiceDiagram.jpg)
 
 ## Detailed class diagram - Aggregate OpenApi Generated Event (Practic 9)
 ![GitHub Image](/AggregateOpenApiGeneratedEvent.png)
