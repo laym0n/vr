@@ -211,7 +211,7 @@ When request received, the flow moves into a sub-state called "Processing reques
 ![GitHub Image](/AggregateDistributorEvent.png)
 
 ## Detailed class diagram - Aggregate Authentication Provider Event (Practic 9)
-![GitHub Image](/AggregateAuthenticationProviderEvent.png)
+![GitHub Image](/AggregateAuthenticationProviderEvent.jpg)
 
 ## Detailed class diagram - Aggregate Storage Event (Practic 9)
 ![GitHub Image](/AggregateStorageEvent.png)
