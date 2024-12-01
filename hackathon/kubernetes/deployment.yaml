@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: api-gateway
+  labels:
+    app: api-gateway
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: api-gateway
+  template:
+    metadata:
+      labels:
+        app: api-gateway
+    spec:
+      containers:
+        - name: cache-service
+          image: cache-service:latest
+          ports:
+            - containerPort: 8000
+        - name: generate-schema-service
+          image: generate-schema-service:latest
+          ports:
+            - containerPort: 8000
+        - name: request-validator-service
+          image: request-validator-service:latest
+          ports:
+            - containerPort: 8000
+        - name: validation-service
+          image: validation-service:latest
+          ports:
+            - containerPort: 8000
+
