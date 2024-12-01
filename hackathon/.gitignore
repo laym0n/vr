@@ -1,0 +1,26 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+
+# Docker
+*.log
+*.env
+docker-compose.override.yml
+
+# Kubernetes
+.kube/
+*.yaml
+
+# VSCode
+.vscode/
+
+# .env files for sensitive configurations
+.env
+
+# Local virtual environment
+venv/
+.env/
