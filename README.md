@@ -187,7 +187,7 @@ Prioritization of use cases
 ## Updated class diagram
 ![GitHub Image](/UpdatedClassDiagram.jpeg)
 
-## Detailed behavior
+## Detailed behavior (Practic 8)
 ![GitHub Image](/state1.png)
 This state diagram represents the lifecycle of Distributor. 
 The process begins in the "Pending requests" state when a started event is received, transitioning from an initial "started" state. The system can be stopped at any time, transitioning to the end state.
@@ -200,3 +200,21 @@ When request received, the flow moves into a sub-state called "Processing reques
 4. A decision is made based on the cache: If a cached response is found, the flow proceeds to "Returning the response." If no cached response exists, the request goes to the "Routing Request" state.
 5. Routing Request: The request is processed, and a response is generated.
 6. Request Response Caching: The generated response may be cached for future requests.
+
+## Service diagram (Practic 9)
+![GitHub Image](/ServiceDiagram.jpg)
+
+## Detailed class diagram - Aggregate OpenApi Generated Event (Practic 9)
+![GitHub Image](/AggregateOpenApiGeneratedEvent.png)
+
+## Detailed class diagram - Aggregate Distributor Event (Practic 9)
+![GitHub Image](/AggregateDistributorEvent.png)
+
+## Detailed class diagram - Aggregate Authentication Provider Event (Practic 9)
+![GitHub Image](/AggregateAuthenticationProviderEvent.jpg)
+
+## Detailed class diagram - Aggregate Storage Event (Practic 9)
+![GitHub Image](/AggregateStorageEvent.png)
+
+## Event storming (Practic 9)
+![GitHub Image](/Eventstorming.jpg)
