@@ -6,15 +6,6 @@ __pycache__/
 *.db
 *.sqlite3
 
-# Docker
-*.log
-*.env
-docker-compose.override.yml
-
-# Kubernetes
-.kube/
-*.yaml
-
 # VSCode
 .vscode/
 
