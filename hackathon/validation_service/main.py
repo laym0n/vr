@@ -1,4 +1,4 @@
-from cache import app
+from validation_service import app
 
 if __name__ == "__main__":
     import uvicorn

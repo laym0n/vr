@@ -1,4 +1,4 @@
-from cache import app
+from request_validator import app
 
 if __name__ == "__main__":
     import uvicorn
