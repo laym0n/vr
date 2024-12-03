@@ -1,6 +1,6 @@
 # Microservices Development Workflow: Request-Response Log
 
-## c
+## История запросов и ответов
 
 [Посмотреть историю запросов и ответов](https://chatgpt.com/share/674ecc40-ccd8-800f-a97f-16c4a7a4935d)
 
