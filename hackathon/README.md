@@ -116,7 +116,7 @@ Identify microservices frameworks optimized for Kubernetes-based API Gateways,
 emphasizing features like OpenAPI support, SSO, and caching.
 ```
 ## Prompt response
-![GitHub Image](/pics/prompt_1.png)
+![GitHub Image](/hackathon/pics/prompt_1.png)
 
 ## 2. Evaluation Matrix
 ```bash
