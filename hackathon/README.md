@@ -124,6 +124,8 @@ Compare Spring Cloud Gateway, Envoy Proxy.
 Evaluate them for performance, scalability, and community support, scoring each from 1 to 5. 
 Justify each score briefly.
 ```
+## Prompt response
+![GitHub Image](/hackathon/pics/prompt_2.png)
 
 ## 3. Shortlisting
 ```bash
@@ -133,6 +135,10 @@ API Gateway requirements and support OpenAPI handling, SSO, and caching.
 Explain why these two were chosen.
 ```
 
+## Prompt response
+![GitHub Image](/hackathon/pics/prompt_3.png)
+
+
 ## 4. Detailed Comparison
 ```bash
 Perform a detailed comparison of Spring Cloud Gateway and Envoy Proxy 
@@ -140,6 +146,8 @@ for OpenAPI handling, caching mechanisms, and SSO support.
 Assess Kubernetes integration and scalability in 
 distributed environments.
 ```
+## Prompt response
+![GitHub Image](/hackathon/pics/prompt_4.png)
 
 ## 5. Final Selection
 ```bash
@@ -148,10 +156,18 @@ API Gateway considering OpenAPI handling, caching efficiency, and SSO support.
 Provide a clear justification and link to resources for implementation.
 ```
 
+## Prompt response
+![GitHub Image](/hackathon/pics/prompt_5.png)
+
 ## 6. Choose framework
 ```bash
 Generate a 'Hello World' microservice using Envoy Proxy that exposes 
 a POST /generate endpoint to create OpenAPI schemas 
 for a list of routes. Use REDIS for caching and secure communication via OIDC.
 ```
-
+## Prompt response 6.1
+![GitHub Image](/hackathon/pics/prompt_6_1.png)
+## Prompt response 6.2
+![GitHub Image](/hackathon/pics/prompt_6_2.png)
+## Prompt response 6.3
+![GitHub Image](/hackathon/pics/prompt_6_3.png)
