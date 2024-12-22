@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 81
 
 # Run the service
-CMD ["python", "main.py"]
+CMD ["uvicorn", "cache:app", "--host", "0.0.0.0", "--port", "81"]

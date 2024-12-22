@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 82
 
 # Run the service
-CMD ["python", "main.py"]
+CMD ["uvicorn", "generate_schema:app", "--host", "0.0.0.0", "--port", "82"]

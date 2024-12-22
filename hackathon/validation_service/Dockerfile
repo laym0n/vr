@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 84
 
 # Run the service
-CMD ["python", "main.py"]
+CMD ["uvicorn", "validation_service:app", "--host", "0.0.0.0", "--port", "84"]
