@@ -6,9 +6,9 @@ from typing import Any, Dict
 app = FastAPI(title="Request Distributor")
 
 # Microservice URLs
-VALIDATOR_URL = "http://request-validator-service:8001/validate-request"
-CACHE_URL = "http://response-cacher-service:8002"
-API_GATEWAY_URL = "http://api-gateway-service:8003"
+VALIDATOR_URL = "http://request-validator-service:83/validate-request"
+CACHE_URL = "http://cache-service:81"
+API_GATEWAY_URL = "http://api-gateway-service:8000"
 
 # Request model
 class DistributorRequest(BaseModel):
