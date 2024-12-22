@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: cache-service
-          image: verhovnick/cache-service:v4
+          image: verhovnick/cache-service:v5
           ports:
             - containerPort: 81
           resources:
@@ -27,7 +27,7 @@ spec:
               memory: "64Mi"
               cpu: "50m"
         - name: generate-schema-service
-          image: verhovnick/generate-schema-service:v4
+          image: verhovnick/generate-schema-service:v5
           ports:
             - containerPort: 82
           resources:
@@ -38,7 +38,7 @@ spec:
               memory: "64Mi"
               cpu: "50m"
         - name: request-validator-service
-          image: verhovnick/request-validator-service:v5
+          image: verhovnick/request-validator-service:v6
           ports:
             - containerPort: 83
           resources:
@@ -49,7 +49,7 @@ spec:
               memory: "64Mi"
               cpu: "50m"
         - name: validation-service
-          image: verhovnick/validation-service:v5
+          image: verhovnick/validation-service:v6
           ports:
             - containerPort: 84
           resources:
