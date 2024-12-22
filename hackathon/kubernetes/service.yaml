@@ -19,7 +19,7 @@ spec:
       port: 83
       targetPort: 8002
     - protocol: TCP
-      name:
+      name: validation-service
       port: 84
       targetPort: 8003
   type: ClusterIP
