@@ -11,28 +11,28 @@ spec:
   rules:
     - http:
         paths:
-          - path: /api-gateway(/|$)(.cache-service)
+          - path: /api-gateway/cache-service
             pathType: ImplementationSpecific
             backend:
               service:
                 name: api-gateway-service
                 port:
                   number: 81
-          - path: /api-gateway(/|$)(.generate-schema-service)
+          - path: /api-gateway/generate-schema-service
             pathType: ImplementationSpecific
             backend:
               service:
                 name: api-gateway-service
                 port:
                   number: 82
-          - path: /api-gateway(/|$)(.request-validator-service)
+          - path: /api-gateway/request-validator-service
             pathType: ImplementationSpecific
             backend:
               service:
                 name: api-gateway-service
                 port:
                   number: 83
-          - path: /api-gateway(/|$)(.validation-service)
+          - path: /api-gateway/validation-service
             pathType: ImplementationSpecific
             backend:
               service:
