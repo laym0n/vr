@@ -21,41 +21,41 @@ spec:
             - containerPort: 8000
           resources:
             requests:
-              memory: "128Mi"
-              cpu: "250m"
+              memory: "32Mi"
+              cpu: "25m"
             limits:
-              memory: "256Mi"
-              cpu: "500m"
+              memory: "64Mi"
+              cpu: "50m"
         - name: generate-schema-service
           image: verhovnick/generate-schema-service:v3
           ports:
             - containerPort: 8001
           resources:
             requests:
-              memory: "128Mi"
-              cpu: "250m"
+              memory: "32Mi"
+              cpu: "25m"
             limits:
-              memory: "256Mi"
-              cpu: "500m"
+              memory: "64Mi"
+              cpu: "50m"
         - name: request-validator-service
           image: verhovnick/request-validator-service:v4
           ports:
             - containerPort: 8002
           resources:
             requests:
-              memory: "128Mi"
-              cpu: "250m"
+              memory: "32Mi"
+              cpu: "25m"
             limits:
-              memory: "256Mi"
-              cpu: "500m"
+              memory: "64Mi"
+              cpu: "50m"
         - name: validation-service
           image: verhovnick/validation-service:v4
           ports:
             - containerPort: 8003
           resources:
             requests:
-              memory: "128Mi"
-              cpu: "250m"
+              memory: "32Mi"
+              cpu: "25m"
             limits:
-              memory: "256Mi"
-              cpu: "500m"
+              memory: "64Mi"
+              cpu: "50m"
