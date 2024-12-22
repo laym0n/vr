@@ -27,10 +27,10 @@ Navigate to each service directory and build the Docker images:
 ```bash
 docker build -t <service-name>:<version> .
 
-docker build -t verhovnick/cache-service:v2 .
-docker build -t verhovnick/generate-schema-service:v2 .
-docker build -t verhovnick/request-validator-service:v2 .
-docker build -t verhovnick/validation-service:v2 .
+docker build -t verhovnick/cache-service:v3 .
+docker build -t verhovnick/generate-schema-service:v3 .
+docker build -t verhovnick/request-validator-service:v4 .
+docker build -t verhovnick/validation-service:v4 .
 ```
 
 ## 2. Push Docker Images to Container Registry
@@ -42,10 +42,10 @@ Use the following command:
 ```bash
 docker push <registry>/<service-name>:<version>
 
-docker push verhovnick/cache-service:v2
-docker push verhovnick/generate-schema-service:v2
-docker push verhovnick/request-validator-service:v2
-docker push verhovnick/validation-service:v2
+docker push verhovnick/cache-service:v3
+docker push verhovnick/generate-schema-service:v3
+docker push verhovnick/request-validator-service:v4
+docker push verhovnick/validation-service:v4
 
 ```
 ## 3. Deploy Microservices on Kubernetes
