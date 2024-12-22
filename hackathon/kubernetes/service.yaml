@@ -9,17 +9,17 @@ spec:
     - protocol: TCP
       name: cache-service
       port: 81
-      targetPort: 8000
+      targetPort: 81
     - protocol: TCP
       name: generate-schema-service
       port: 82
-      targetPort: 8001
+      targetPort: 82
     - protocol: TCP
       name: request-validator-service
       port: 83
-      targetPort: 8002
+      targetPort: 83
     - protocol: TCP
       name: validation-service
       port: 84
-      targetPort: 8003
+      targetPort: 84
   type: ClusterIP

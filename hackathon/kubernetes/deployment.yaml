@@ -18,7 +18,7 @@ spec:
         - name: cache-service
           image: verhovnick/cache-service:v3
           ports:
-            - containerPort: 8000
+            - containerPort: 81
           resources:
             requests:
               memory: "32Mi"
@@ -29,7 +29,7 @@ spec:
         - name: generate-schema-service
           image: verhovnick/generate-schema-service:v3
           ports:
-            - containerPort: 8001
+            - containerPort: 82
           resources:
             requests:
               memory: "32Mi"
@@ -40,7 +40,7 @@ spec:
         - name: request-validator-service
           image: verhovnick/request-validator-service:v4
           ports:
-            - containerPort: 8002
+            - containerPort: 83
           resources:
             requests:
               memory: "32Mi"
@@ -51,7 +51,7 @@ spec:
         - name: validation-service
           image: verhovnick/validation-service:v4
           ports:
-            - containerPort: 8003
+            - containerPort: 84
           resources:
             requests:
               memory: "32Mi"
