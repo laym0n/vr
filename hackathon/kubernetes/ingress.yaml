@@ -4,35 +4,36 @@ metadata:
   name: api-gateway-ingress
   namespace: self-doc-project
   annotations:
-    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/rewrite-target: /$2
+
 spec:
   ingressClassName: nginx
   rules:
     - http:
         paths:
-          - path: /api-gateway/cache-service
-            pathType: Prefix
+          - path: /api-gateway/cache-service(/|$)(.*)
+            pathType: ImplementationSpecific
             backend:
               service:
                 name: cache-service
                 port:
                   number: 81
-          - path: /api-gateway/generate-schema-service
-            pathType: Prefix
+          - path: /api-gateway/generate-schema-service(/|$)(.*)
+            pathType: ImplementationSpecific
             backend:
               service:
                 name: generate-schema-service
                 port:
                   number: 82
-          - path: /api-gateway/request-validator-service
-            pathType: Prefix
+          - path: /api-gateway/request-validator-service(/|$)(.*)
+            pathType: ImplementationSpecific
             backend:
               service:
                 name: request-validator-service
                 port:
                   number: 83
-          - path: /api-gateway/validation-service
-            pathType: Prefix
+          - path: /api-gateway/validation-service(/|$)(.*)
+            pathType: ImplementationSpecific
             backend:
               service:
                 name: validation-service

@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: request-validator-service
+  labels:
+    app: request-validator-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: request-validator-service
+  template:
+    metadata:
+      labels:
+        app: request-validator-service
+    spec:
+      containers:
+        - name: request-validator-service
+          image: verhovnick/request-validator-service:v6
+          ports:
+            - containerPort: 83
+          resources:
+            requests:
+              memory: "32Mi"
+              cpu: "25m"
+            limits:
+              memory: "64Mi"
+              cpu: "50m"
