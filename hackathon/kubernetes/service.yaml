@@ -7,6 +7,19 @@ spec:
     app: api-gateway
   ports:
     - protocol: TCP
-      port: 80
+      name: cache-service
+      port: 81
       targetPort: 8000
-  type: LoadBalancer
+    - protocol: TCP
+      name: generate-schema-service
+      port: 82
+      targetPort: 8001
+    - protocol: TCP
+      name: request-validator-service
+      port: 83
+      targetPort: 8002
+    - protocol: TCP
+      name:
+      port: 84
+      targetPort: 8003
+  type: ClusterIP

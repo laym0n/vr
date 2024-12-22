@@ -16,18 +16,46 @@ spec:
     spec:
       containers:
         - name: cache-service
-          image: cache-service:latest
+          image: verhovnick/cache-service:v2
           ports:
             - containerPort: 8000
+          resources:
+            requests:
+              memory: "128Mi"
+              cpu: "250m"
+            limits:
+              memory: "256Mi"
+              cpu: "500m"
         - name: generate-schema-service
-          image: generate-schema-service:latest
+          image: verhovnick/generate-schema-service:v2
           ports:
-            - containerPort: 8000
+            - containerPort: 8001
+          resources:
+            requests:
+              memory: "128Mi"
+              cpu: "250m"
+            limits:
+              memory: "256Mi"
+              cpu: "500m"
         - name: request-validator-service
-          image: request-validator-service:latest
+          image: verhovnick/request-validator-service:v2
           ports:
-            - containerPort: 8000
+            - containerPort: 8002
+          resources:
+            requests:
+              memory: "128Mi"
+              cpu: "250m"
+            limits:
+              memory: "256Mi"
+              cpu: "500m"
         - name: validation-service
-          image: validation-service:latest
+          image: verhovnick/validation-service:v2
           ports:
-            - containerPort: 8000
+            - containerPort: 8003
+          resources:
+            requests:
+              memory: "128Mi"
+              cpu: "250m"
+            limits:
+              memory: "256Mi"
+              cpu: "500m"
