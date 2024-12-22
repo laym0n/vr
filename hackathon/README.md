@@ -30,7 +30,7 @@ docker build -t <service-name>:<version> .
 docker buildx build --platform linux/amd64 -t verhovnick/cache-service:v5 --push .
 docker buildx build --platform linux/amd64 -t verhovnick/generate-schema-service:v5 --push .
 docker buildx build --platform linux/amd64 -t verhovnick/request-validator-service:v6 --push .
-docker buildx build --platform linux/amd64 -t verhovnick/validation-service:v6 --push .
+docker buildx build --platform linux/amd64 -t verhovnick/validation-service:v7 --push .
 ```
 
 ## 2. Push Docker Images to Container Registry
