@@ -12,7 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose the port
-EXPOSE 8000
+EXPOSE 84
 
 # Run the service
 CMD ["python", "main.py"]
