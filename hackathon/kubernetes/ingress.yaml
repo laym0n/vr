@@ -12,28 +12,28 @@ spec:
     - http:
         paths:
           - path: /api-gateway/cache-service
-            pathType: ImplementationSpecific
+            pathType: Prefix
             backend:
               service:
                 name: cache-service
                 port:
                   number: 81
           - path: /api-gateway/generate-schema-service
-            pathType: ImplementationSpecific
+            pathType: Prefix
             backend:
               service:
                 name: generate-schema-service
                 port:
                   number: 82
           - path: /api-gateway/request-validator-service
-            pathType: ImplementationSpecific
+            pathType: Prefix
             backend:
               service:
                 name: request-validator-service
                 port:
                   number: 83
           - path: /api-gateway/validation-service
-            pathType: ImplementationSpecific
+            pathType: Prefix
             backend:
               service:
                 name: validation-service
