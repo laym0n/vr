@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: cache-service
-          image: verhovnick/cache-service:v5
+          image: verhovnick/cache-service:v6
           ports:
             - containerPort: 81
           resources:

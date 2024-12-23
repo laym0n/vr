@@ -27,7 +27,7 @@ Navigate to each service directory and build the Docker images:
 ```bash
 docker build -t <service-name>:<version> .
 
-docker buildx build --platform linux/amd64 -t verhovnick/cache-service:v5 --push .
+docker buildx build --platform linux/amd64 -t verhovnick/cache-service:v6 --push .
 docker buildx build --platform linux/amd64 -t verhovnick/generate-schema-service:v5 --push .
 docker buildx build --platform linux/amd64 -t verhovnick/request-validator-service:v6 --push .
 docker buildx build --platform linux/amd64 -t verhovnick/validation-service:v7 --push .
