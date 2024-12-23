@@ -173,13 +173,67 @@ Any user, application, or system that interacts with the API Gateway to access b
 
 ## UseCase
 ![GitHub Image](/usecase1.png)
-Prioritization of use cases
-1. distribute requests across services
-2. check api definitions of each service
-``MVP``
----
-3. establish secure connections
-4. cache responses
+
+### distribute requests across services
+Actor(s): Developer, Solution Architect<br>
+Description: The gateway balances and forwards incoming traffic to respective microservices. <br>
+Preconditions: API Gateway must know the service endpoints. <br>
+Steps: <br>
+    1. User sends a request to the API Gateway. <br>
+    2. Gateway routes the request to the correct microservice. <br>
+    3. Load balancing distributes traffic evenly. <br>
+Postconditions: Requests are efficiently distributed to services. <br>
+### check api definitions of each service
+Actor(s): Analyst, Developer <br>
+
+Description:
+This use case allows users to retrieve and view the OpenAPI definitions for each microservice exposed through the API Gateway. These definitions are generated automatically from the source code or defined via Kubernetes CRDs (Custom Resource Definitions). <br>
+
+Preconditions:
+The API Gateway must have access to the OpenAPI schema of the microservices.  <br>
+Steps: <br>
+1. The user sends a request to the API Gateway to retrieve the API definition of a specific service.
+2. The API Gateway fetches the schema, either from a CRD or generated from the service's source code.
+3. The Gateway returns the schema to the user.
+Postconditions:
+The user obtains the OpenAPI schema of the requested service in a human-readable format. <br>
+
+### establish secure connections
+Actor(s): Developer, Solution Architect <br>
+
+Description:
+This use case ensures all communications between the clients and services are securely established using encryption, authentication, and token-based authorization. The Gateway also supports Single Sign-On (SSO) to simplify authentication across multiple services. <br>
+
+Preconditions: <br>
+The Gateway must have security configurations in place (e.g., TLS certificates, SSO integration). <br>
+The user must have valid credentials for obtaining tokens. <br>
+Steps: <br>
+
+1. The client connects to the API Gateway over HTTPS.
+2. The Gateway redirects the user to authenticate via SSO or validates their credentials to generate a token.
+3. Once authenticated, the Gateway establishes a secure, encrypted channel for communication.
+3. Subsequent requests include the authentication token for secure communication.
+Postconditions: <br>
+
+The client is authenticated and connected securely to the API Gateway. <br>
+
+### cache responses
+Actor(s): Solution Architect <br>
+
+Description: <br>
+This use case improves performance and reduces latency by caching frequently requested API responses. The Gateway serves cached responses when available instead of forwarding the request to the underlying service. <br>
+
+Preconditions: <br>
+Caching must be enabled and configured for the API Gateway. <br>
+The cached data must not exceed the configured expiration time (TTL). <br>
+Steps: <br>
+1. A client sends a request to the API Gateway.
+2. The Gateway checks if a valid cached response for the request exists.
+3. If found, the cached response is returned directly to the client.
+If not, the Gateway forwards the request to the underlying service, caches the response, and sends it to the client.
+Postconditions: <br>
+
+The response is either served from the cache or newly cached and sent to the client. <br>
 
 ## InteractionAnalysis
 ![GitHub Image](/InteractionAnalysis.jpeg)
