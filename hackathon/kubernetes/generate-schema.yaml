@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: generate-schema-service
+  namespace: self-doc-project
+spec:
+  selector:
+    app: generate-schema
+  ports:
+    - protocol: TCP
+      name: generate-schema-service
+      port: 82
+      targetPort: 82
+  type: ClusterIP
