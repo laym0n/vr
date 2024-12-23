@@ -5,7 +5,9 @@ from typing import Dict
 
 from starlette.requests import Request
 
-app = FastAPI(title="Response Cacher", openapi_url="/api-gateway/cache-service/openapi.json")
+app = FastAPI(title="Response Cacher",
+              swagger_ui_parameters={"openapiUrl": "/api-gateway/cache-service/openapi.json"}
+)
 
 
 # In-memory cache for storing responses
