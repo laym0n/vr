@@ -5,16 +5,8 @@ from typing import Dict
 
 from starlette.requests import Request
 
-app = FastAPI(title="Response Cacher")
+app = FastAPI(title="Response Cacher", openapi_url="/api-gateway/cache-service/openapi.json")
 
-@app.get("/docs", include_in_schema=False)
-async def custom_swagger_ui_html(req: Request):
-    root_path = req.scope.get("root_path", "").rstrip("/")
-    openapi_url = root_path + app.openapi_url
-    return get_swagger_ui_html(
-        openapi_url=openapi_url,
-        title="API",
-    )
 
 # In-memory cache for storing responses
 response_cache: Dict[str, Dict] = {}
