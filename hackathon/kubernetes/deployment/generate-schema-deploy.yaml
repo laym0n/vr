@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: generate-schema-service
-          image: verhovnick/generate-schema-service:v6
+          image: verhovnick/generate-schema-service:v7
           ports:
             - containerPort: 82
           resources:

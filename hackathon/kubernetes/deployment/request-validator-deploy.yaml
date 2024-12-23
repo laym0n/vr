@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: request-validator-service
-          image: verhovnick/request-validator-service:v6
+          image: verhovnick/request-validator-service:v7
           ports:
             - containerPort: 83
           resources:

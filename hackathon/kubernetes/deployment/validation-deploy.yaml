@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: validation-service
-          image: verhovnick/validation-service:v6
+          image: verhovnick/validation-service:v8
           ports:
             - containerPort: 84
           resources:
