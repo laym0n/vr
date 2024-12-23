@@ -2,7 +2,11 @@ from fastapi import FastAPI, Request
 from pydantic import BaseModel
 from typing import Dict, Any
 
-app = FastAPI(title="OpenAPI Schema Generator")
+app = FastAPI(
+    title="OpenAPI Schema Generator",
+    root_path="/api-gateway/generate-schema-service",
+    swagger_ui_parameters={"openapiUrl": "/api-gateway/generate-schema-service/openapi.json"}
+)
 
 class SchemaResponse(BaseModel):
     openapi: str

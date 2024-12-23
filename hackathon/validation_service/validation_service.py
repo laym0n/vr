@@ -5,7 +5,11 @@ from typing import Dict, Any, Optional
 import httpx
 from jsonschema import validate, ValidationError
 
-app = FastAPI(title="Request Validator")
+app = FastAPI(
+    title="Request Validator",
+    root_path = "/api-gateway/validation-service",
+    swagger_ui_parameters = {"openapiUrl": "/api-gateway/validation-service/openapi.json"}
+)
 
 # In-memory storage for the schema
 result_schema: Optional[Dict[str, Any]] = None

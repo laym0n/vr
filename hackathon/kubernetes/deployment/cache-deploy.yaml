@@ -26,4 +26,3 @@ spec:
             limits:
               memory: "64Mi"
               cpu: "50m"
-#          args: ["--root-path", "/api-gateway/cache-service"]

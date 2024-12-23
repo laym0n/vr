@@ -3,7 +3,11 @@ from pydantic import BaseModel
 import httpx
 from typing import Any, Dict
 
-app = FastAPI(title="Request Distributor")
+app = FastAPI(
+    title="Request Distributor",
+    root_path="/api-gateway/request-validator-service",
+    swagger_ui_parameters={"openapiUrl": "/api-gateway/request-validator-service/openapi.json"}
+)
 
 # Microservice URLs
 VALIDATOR_URL = "http://request-validator-service:83/validate-request"
