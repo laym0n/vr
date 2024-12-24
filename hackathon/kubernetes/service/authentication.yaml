@@ -8,6 +8,7 @@ spec:
     app: authentication
   ports:
     - protocol: TCP
+      name: authentication-service
       port: 85
       targetPort: 85
   type: ClusterIP
