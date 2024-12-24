@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: authentication-service
+  namespace: self-doc-project
+spec:
+  selector:
+    app: authentication
+  ports:
+    - protocol: TCP
+      port: 85
+      targetPort: 85
+  type: ClusterIP

@@ -39,3 +39,10 @@ spec:
                 name: validation-service
                 port:
                   number: 84
+          - path: /api-gateway/authentication-service(/|$)(.*)
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: authentication-service
+                port:
+                  number: 85
