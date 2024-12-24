@@ -4,8 +4,12 @@ import uuid
 from datetime import datetime, timedelta
 from typing import List, Optional
 import random
+app = FastAPI(
+    title="Authentication",
+    root_path="/api-gateway/authentication-service",
+    swagger_ui_parameters={"openapiUrl": "/api-gateway/authentication-service/openapi.json"}
+)
 
-app = FastAPI()
 
 # Mock Data (фейковая база данных)
 fake_users_db = {

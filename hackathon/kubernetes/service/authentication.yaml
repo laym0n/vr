@@ -5,7 +5,7 @@ metadata:
   namespace: self-doc-project
 spec:
   selector:
-    app: authentication
+    app: authentication-service
   ports:
     - protocol: TCP
       name: authentication-service
