@@ -1,9 +1,6 @@
 from fastapi import FastAPI, HTTPException
-from fastapi.openapi.docs import get_swagger_ui_html
 from pydantic import BaseModel
 from typing import Dict
-
-from starlette.requests import Request
 
 app = FastAPI(
     title="Response Cacher",
@@ -11,18 +8,14 @@ app = FastAPI(
     swagger_ui_parameters={"openapiUrl": "/api-gateway/cache-service/openapi.json"}
 )
 
-
 # In-memory cache for storing responses
-response_cache: Dict[str, Dict] = {}
+response_cache: Dict[str, str] = {}
 
 class CacheRequest(BaseModel):
     idempotentKey: str
     response: Dict
 
-class GetResponseRequest(BaseModel):
-    idempotentKey: str
-
-@app.post("/cache-response")
+@app.post("/cache")
 async def cache_response(request: CacheRequest):
     """
     Save a response in the cache with an idempotentKey.
@@ -35,12 +28,22 @@ async def cache_response(request: CacheRequest):
     response_cache[request.idempotentKey] = request.response
     return {"message": "Response cached successfully."}
 
-@app.get("/get-response")
-async def get_response(idempotentKey: str):
+@app.get("/cache/{idempotencyKey}")
+async def get_cached_response(idempotencyKey: str):
     """
-    Retrieve a cached response using an idempotentKey.
+    Retrieve a cached response by idempotencyKey.
     """
-    response = response_cache.get(idempotentKey)
+    response = response_cache.get(idempotencyKey)
     if response is None:
-        raise HTTPException(status_code=404, detail="Response not found for the given idempotentKey.")
+        raise HTTPException(status_code=404, detail="Response not found for the given idempotencyKey.")
     return {"response": response}
+
+@app.post("/cache/invalidate/{idempotencyKey}")
+async def invalidate_cache(idempotencyKey: str):
+    """
+    Invalidate a specific cached response by idempotencyKey.
+    """
+    if idempotencyKey in response_cache:
+        del response_cache[idempotencyKey]
+        return {"message": f"Cache entry with idempotencyKey '{idempotencyKey}' invalidated successfully."}
+    raise HTTPException(status_code=404, detail="Response not found for the given idempotencyKey.")
