@@ -12,7 +12,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Expose the port
-EXPOSE 81
+EXPOSE 85
 
 # Run the service
 CMD ["uvicorn", "cache:app", "--host", "0.0.0.0", "--port", "85"]
