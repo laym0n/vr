@@ -31,8 +31,8 @@ docker buildx build --platform linux/amd64 -t verhovnick/cache-service:v12 --pus
 docker buildx build --platform linux/amd64 -t verhovnick/generate-schema-service:v7 --push .
 docker buildx build --platform linux/amd64 -t verhovnick/request-validator-service:v7 --push .
 docker buildx build --platform linux/amd64 -t verhovnick/validation-service:v8 --push .
-docker buildx build --platform linux/amd64 -t verhovnick/authentication-service:v4 --push .
-docker buildx build --platform linux/amd64 -t verhovnick/storage-service:v5 --push .
+docker buildx build --platform linux/amd64 -t verhovnick/authentication-service:v5 --push .
+docker buildx build --platform linux/amd64 -t verhovnick/storage-service:v7 --push .
 
 ```
 
