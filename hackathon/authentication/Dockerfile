@@ -15,4 +15,4 @@ COPY . .
 EXPOSE 85
 
 # Run the service
-CMD ["uvicorn", "cache:app", "--host", "0.0.0.0", "--port", "85"]
+CMD ["uvicorn", "authentication:app", "--host", "0.0.0.0", "--port", "85"]
