@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: storage-service
-          image: verhovnick/storage-service:v4
+          image: verhovnick/storage-service:v5
           ports:
             - containerPort: 86
           envFrom:
