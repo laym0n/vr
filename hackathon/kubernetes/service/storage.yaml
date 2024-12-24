@@ -5,7 +5,7 @@ metadata:
   namespace: self-doc-project
 spec:
   selector:
-    app: storage
+    app: storage-service
   ports:
     - protocol: TCP
       port: 86

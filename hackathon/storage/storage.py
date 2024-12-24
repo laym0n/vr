@@ -3,8 +3,13 @@
 import os
 from fastapi import FastAPI, UploadFile, HTTPException
 from fastapi.responses import JSONResponse, FileResponse
+app = FastAPI(
+    title="Storage",
+    root_path="/api-gateway/storage-service",
+    swagger_ui_parameters={"openapiUrl": "/api-gateway/storage-service/openapi.json"}
+)
 
-app = FastAPI()
+
 
 # Директория для локального хранения файлов
 LOCAL_STORAGE_DIR = "./storage"
