@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Secret
+metadata:
+  name: yandex-cloud-credentials
+  namespace: self-doc-project
+type: Opaque
+data:
+  AWS_ACCESS_KEY_ID: WUNBSkU3TDFKM0hncXZSTEZZc3pMQUF5Ng==
+  AWS_SECRET_ACCESS_KEY: WUNQWlNkNERqLVJMM0JGTTVMcjFIN3Z0emVUaVh3VnZ1UUJ3T0tWNA==

@@ -46,3 +46,10 @@ spec:
                 name: authentication-service
                 port:
                   number: 85
+          - path: /api-gateway/storage-service(/|$)(.*)
+            pathType: ImplementationSpecific
+            backend:
+              service:
+                name: storage-service
+                port:
+                  number: 86

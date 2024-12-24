@@ -27,10 +27,13 @@ Navigate to each service directory and build the Docker images:
 ```bash
 docker build -t <service-name>:<version> .
 
-docker buildx build --platform linux/amd64 -t verhovnick/cache-service:v10 --push .
+docker buildx build --platform linux/amd64 -t verhovnick/cache-service:v11 --push .
 docker buildx build --platform linux/amd64 -t verhovnick/generate-schema-service:v7 --push .
 docker buildx build --platform linux/amd64 -t verhovnick/request-validator-service:v7 --push .
 docker buildx build --platform linux/amd64 -t verhovnick/validation-service:v8 --push .
+docker buildx build --platform linux/amd64 -t verhovnick/authentication-service:v3 --push .
+docker buildx build --platform linux/amd64 -t verhovnick/storage-service:v5 --push .
+
 ```
 
 ## 2. Push Docker Images to Container Registry

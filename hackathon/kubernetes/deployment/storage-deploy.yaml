@@ -1,24 +1,27 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: authentication-service
+  name: storage-service
   labels:
-    app: authentication-service
+    app: storage-service
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: authentication-service
+      app: storage-service
   template:
     metadata:
       labels:
-        app: authentication-service
+        app: storage-service
     spec:
       containers:
-        - name: authentication-service
-          image: verhovnick/authentication-service:v3
+        - name: storage-service
+          image: verhovnick/storage-service:v3
           ports:
-            - containerPort: 85
+            - containerPort: 86
+          envFrom:
+            - secretRef:
+                name: yandex-cloud-credentials
           resources:
             requests:
               memory: "32Mi"
